@@ -3,7 +3,7 @@
 /* Modo em Ratrato (portrait)*/
 
 body{
-    background-image: url(../pacote-imagens-cap25/imagens/cev-portrait.jpg);
+    background-image: url(../imagens/cev-portrait.jpg);
 
-    background-position: center bottom;
+    background-position:center bottom;
 }

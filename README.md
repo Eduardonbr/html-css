@@ -8,3 +8,5 @@ Estou aprendendo a criar sites e agora vou gerenciar repositórios!
 <a href="https://eduardonbr.github.io/html-css/Exercicios/ex026 - media querie/mq002/index.html">Executa o exercício 026 - Parte 1</a>
 
 <a href="https://eduardonbr.github.io/html-css/Exercicios/ex026 - media querie/mq004/index.html">Executa o exercício 026 - Parte 2</a>
+
+<a href="https://eduardonbr.github.io/html-css/Exercicios/ex026 - media querie/mq005/index.html">Executa o exercício 026 - Parte 3</a>

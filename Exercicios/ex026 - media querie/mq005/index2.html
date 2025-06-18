@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu Hambúrguer Estilo Google</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    /* Ícone do menu */
+    .menu-icon {
+      font-size: 36px;
+      cursor: pointer;
+      padding: 16px;
+    }
+
+    /* Estilização do menu lateral */
+    .sidebar {
+      height: 100%;
+      width: 0;
+      position: fixed;
+      top: 0;
+      left: 0;
+      background-color: #fff;
+      box-shadow: 2px 0 5px rgba(0,0,0,0.2);
+      overflow-x: hidden;
+      transition: 0.3s;
+      padding-top: 60px;
+    }
+
+    .sidebar a {
+      padding: 12px 24px;
+      text-decoration: none;
+      color: #333;
+      display: block;
+      transition: 0.2s;
+    }
+
+    .sidebar a:hover {
+      background-color: #f1f1f1;
+    }
+
+    .close-btn {
+      position: absolute;
+      top: 16px;
+      right: 24px;
+      font-size: 30px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Ícone do menu -->
+  <span class="material-icons menu-icon" onclick="openMenu()">menu</span>
+
+  <!-- Menu lateral -->
+  <div id="sidebar" class="sidebar">
+    <span class="material-icons close-btn" onclick="closeMenu()">close</span>
+    <a href="#">Início</a>
+    <a href="#">Sobre</a>
+    <a href="#">Serviços</a>
+    <a href="#">Contato</a>
+  </div>
+
+  <script>
+    function openMenu() {
+      document.getElementById("sidebar").style.width = "250px";
+    }
+
+    function closeMenu() {
+      document.getElementById("sidebar").style.width = "0";
+    }
+  </script>
+
+</body>
+</html>

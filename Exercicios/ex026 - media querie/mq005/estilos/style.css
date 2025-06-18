@@ -7,6 +7,7 @@
     font-size: 1em;
     margin: 0px;
     padding: 0px;
+
 }
 
 html{
@@ -24,18 +25,37 @@ header h1{
     padding: 10px;
 }
 
-header nav{
+i#burguer{
+    background-color: rgb(48, 48, 48);
+    color: white;
     display: block;
-    background-color: rgb(70, 70, 70);
     text-align: center;
-    border-top: 2px solid rgb(255, 0, 0);
+    padding: 10px;
+    cursor: pointer;
+}
+
+i#burguer:hover{
+    background-color: white;
+    color: black;
+
+}
+
+header nav{
+    background-color: rgb(70, 70, 70);
+    display: none;
+    margin: 0px;
+    padding: 0px;
+
 }
 
 nav a{
-    text-align: center;
     color: white;
     text-decoration: none;
+    text-align: center;
+    display: block;
     padding: 10px;
+    border-top: 2px solid rgb(153, 153, 153);
+
     
 }
 

@@ -9,8 +9,26 @@ Desktop: 992px - 1200px
 Grandes Telas: 1200px -
 */
 
-@media screen (min-width:600) and (max-width: 768px) {
-  nav{
-    
+@media screen and (min-width: 768px) {
+
+      i#burguer{
+      display: none;
   }
+
+  menu{
+    display: block;
+  }
+
+ nav > a{
+    display: inline-block
+  }
+
+  main{
+    width: 768px;
+  }
+
 }
+
+
+
+

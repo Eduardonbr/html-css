@@ -1,8 +1,0 @@
-
-/*
-PT: < 600px
-Celular: 600px - 768px
-tablet: 769px - 992px
-Desktop: 999px - 1200px
-GT: > 1200px
-*/
